@@ -30,6 +30,7 @@ import org.springframework.data.domain.Pageable;
 <%_ } _%>
 <%_ if (pagination === 'no' || fieldsContainNoOwnerOneToOne === true) { _%>
 import java.util.List;
+import javax.inject.Inject;
 <%_ } _%>
 
 /**
